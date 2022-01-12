@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c7e15c22edf84f0395e9ca33ab5d8a76 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c7e15c22edf84f0395e9ca33ab5d8a76" ></div>
+        
+</body>
+<script>    
+    
+            var map_c7e15c22edf84f0395e9ca33ab5d8a76 = L.map(
+                "map_c7e15c22edf84f0395e9ca33ab5d8a76",
+                {
+                    center: [-16.6954999, -49.4443552],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f69d21c0191f4f2f8e7b5709d60df7d9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c7e15c22edf84f0395e9ca33ab5d8a76);
+        
+    
+            var marker_16a91301325b4347877b357636bf2d6f = L.marker(
+                [-16.6765656, -49.2430639],
+                {}
+            ).addTo(map_c7e15c22edf84f0395e9ca33ab5d8a76);
+        
+    
+            var icon_4153e72a589b4527a0d7cae815851b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_16a91301325b4347877b357636bf2d6f.setIcon(icon_4153e72a589b4527a0d7cae815851b7e);
+        
+    
+        var popup_903d4de95ba94c329cfb055c31d3cf34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ed249de4f4a4a73bd5db3794ae7974d = $(`<div id="html_2ed249de4f4a4a73bd5db3794ae7974d" style="width: 100.0%; height: 100.0%;"><i>UFG - Campus Colemar Natal e Silva</i></div>`)[0];
+            popup_903d4de95ba94c329cfb055c31d3cf34.setContent(html_2ed249de4f4a4a73bd5db3794ae7974d);
+        
+
+        marker_16a91301325b4347877b357636bf2d6f.bindPopup(popup_903d4de95ba94c329cfb055c31d3cf34)
+        ;
+
+        
+    
+    
+            marker_16a91301325b4347877b357636bf2d6f.bindTooltip(
+                `<div>
+                     Clique aqui!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb1bbeecb8fa4b8abf2b31cbe8ca5f0b = L.marker(
+                [-16.6062017, -49.2636511],
+                {}
+            ).addTo(map_c7e15c22edf84f0395e9ca33ab5d8a76);
+        
+    
+            var icon_304aa699e2634b4e81c685d1327bfe87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cb1bbeecb8fa4b8abf2b31cbe8ca5f0b.setIcon(icon_304aa699e2634b4e81c685d1327bfe87);
+        
+    
+        var popup_18255fbae01440e8bcd9cc9b9868286d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2e282f00a7746a598eda1fcc92c500e = $(`<div id="html_a2e282f00a7746a598eda1fcc92c500e" style="width: 100.0%; height: 100.0%;"><b>UFG - Campus Samambaia</b></div>`)[0];
+            popup_18255fbae01440e8bcd9cc9b9868286d.setContent(html_a2e282f00a7746a598eda1fcc92c500e);
+        
+
+        marker_cb1bbeecb8fa4b8abf2b31cbe8ca5f0b.bindPopup(popup_18255fbae01440e8bcd9cc9b9868286d)
+        ;
+
+        
+    
+    
+            marker_cb1bbeecb8fa4b8abf2b31cbe8ca5f0b.bindTooltip(
+                `<div>
+                     Clique aqui!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe441f1316fa4aadb4e7e93fcc867ed5 = L.marker(
+                [-16.708241, -49.2732332],
+                {}
+            ).addTo(map_c7e15c22edf84f0395e9ca33ab5d8a76);
+        
+    
+            var icon_5c26a4688b4d4c13bb8eac0b83b6453f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe441f1316fa4aadb4e7e93fcc867ed5.setIcon(icon_5c26a4688b4d4c13bb8eac0b83b6453f);
+        
+    
+        var popup_f1ea8d714d3341eb8d751b53f5ef4a51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dcda0f692fb4a18b0f2b00186008aee = $(`<div id="html_3dcda0f692fb4a18b0f2b00186008aee" style="width: 100.0%; height: 100.0%;"><b>Parque Vaca Brava</b></div>`)[0];
+            popup_f1ea8d714d3341eb8d751b53f5ef4a51.setContent(html_3dcda0f692fb4a18b0f2b00186008aee);
+        
+
+        marker_fe441f1316fa4aadb4e7e93fcc867ed5.bindPopup(popup_f1ea8d714d3341eb8d751b53f5ef4a51)
+        ;
+
+        
+    
+    
+            marker_fe441f1316fa4aadb4e7e93fcc867ed5.bindTooltip(
+                `<div>
+                     Clique aqui!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c08a00d2644442c9b0434f196835aa00 = L.marker(
+                [-16.7091795, -49.2554342],
+                {}
+            ).addTo(map_c7e15c22edf84f0395e9ca33ab5d8a76);
+        
+    
+            var icon_4b8327a3b0d84982aa50dc73a3454b53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c08a00d2644442c9b0434f196835aa00.setIcon(icon_4b8327a3b0d84982aa50dc73a3454b53);
+        
+    
+        var popup_7aea50a8a22446c78e20e77a05346229 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d01a1b41dbce4316bcca40c81a2608a0 = $(`<div id="html_d01a1b41dbce4316bcca40c81a2608a0" style="width: 100.0%; height: 100.0%;"><b>Hospital de Urgências de Goiânia</b></div>`)[0];
+            popup_7aea50a8a22446c78e20e77a05346229.setContent(html_d01a1b41dbce4316bcca40c81a2608a0);
+        
+
+        marker_c08a00d2644442c9b0434f196835aa00.bindPopup(popup_7aea50a8a22446c78e20e77a05346229)
+        ;
+
+        
+    
+    
+            marker_c08a00d2644442c9b0434f196835aa00.bindTooltip(
+                `<div>
+                     Clique aqui!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

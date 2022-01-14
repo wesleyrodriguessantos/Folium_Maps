@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94f608d79e4040cd86a8acfef33e25f5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_94f608d79e4040cd86a8acfef33e25f5" ></div>
+        
+</body>
+<script>    
+    
+            var map_94f608d79e4040cd86a8acfef33e25f5 = L.map(
+                "map_94f608d79e4040cd86a8acfef33e25f5",
+                {
+                    center: [-14.441758, -48.9271955],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7674b7963ae84a03b5de3d4d2cf74257 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+            var circle_marker_f9c8f789376f4c05b4d50dd2466572bc = L.circleMarker(
+                [-14.313991, -49.1604868],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_1ffcee2c95a2444fbd92454a44ca3b9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eb8daaf6b654a32813f95d01b2809c8 = $(`<div id="html_2eb8daaf6b654a32813f95d01b2809c8" style="width: 100.0%; height: 100.0%;"><b>Campinorte/GO</b><br>Lorem Ipsum</div>`)[0];
+            popup_1ffcee2c95a2444fbd92454a44ca3b9c.setContent(html_2eb8daaf6b654a32813f95d01b2809c8);
+        
+
+        circle_marker_f9c8f789376f4c05b4d50dd2466572bc.bindPopup(popup_1ffcee2c95a2444fbd92454a44ca3b9c)
+        ;
+
+        
+    
+    
+            circle_marker_f9c8f789376f4c05b4d50dd2466572bc.bindTooltip(
+                `<div>
+                     Campinorte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d060f920f8384b6aa7bf84462b0f3c58 = L.circleMarker(
+                [-14.2662866, -49.6787236],
+                {"bubblingMouseEvents": true, "color": "lightgray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_56136fb21e434c5db6db746040e74805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a2a18c2d96d40cfba8cbc9ae09f6162 = $(`<div id="html_3a2a18c2d96d40cfba8cbc9ae09f6162" style="width: 100.0%; height: 100.0%;"><b>Campos Verdes/GO</b><br>Dolor Sit amet<br> Venha venha</div>`)[0];
+            popup_56136fb21e434c5db6db746040e74805.setContent(html_3a2a18c2d96d40cfba8cbc9ae09f6162);
+        
+
+        circle_marker_d060f920f8384b6aa7bf84462b0f3c58.bindPopup(popup_56136fb21e434c5db6db746040e74805)
+        ;
+
+        
+    
+    
+            circle_marker_d060f920f8384b6aa7bf84462b0f3c58.bindTooltip(
+                `<div>
+                     Campos Verdes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fcb1ea057cbf4e64981df87e0c9c939c = L.circleMarker(
+                [-13.7939446, -47.4617806],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_adf04e5ee3bd4db49365f50ffdfa61e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_436d920abae447bd9113ffb641291651 = $(`<div id="html_436d920abae447bd9113ffb641291651" style="width: 100.0%; height: 100.0%;"><b>Cavalcante/GO</b><br>Aqui tem Alguma <i>Coisa</i></div>`)[0];
+            popup_adf04e5ee3bd4db49365f50ffdfa61e8.setContent(html_436d920abae447bd9113ffb641291651);
+        
+
+        circle_marker_fcb1ea057cbf4e64981df87e0c9c939c.bindPopup(popup_adf04e5ee3bd4db49365f50ffdfa61e8)
+        ;
+
+        
+    
+    
+            circle_marker_fcb1ea057cbf4e64981df87e0c9c939c.bindTooltip(
+                `<div>
+                     Cavalcante
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_673909486fac49c392e88f2a798228a5 = L.circleMarker(
+                [-15.3065344, -49.6263106],
+                {"bubblingMouseEvents": true, "color": "lightgray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_3b5873f2e1834fd0aaaf2eae9e0bfd5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0bd3b291513429fb0a51b92e8044e59 = $(`<div id="html_c0bd3b291513429fb0a51b92e8044e59" style="width: 100.0%; height: 100.0%;"><b>Ceres/go</b><br>Texto exemplo</div>`)[0];
+            popup_3b5873f2e1834fd0aaaf2eae9e0bfd5f.setContent(html_c0bd3b291513429fb0a51b92e8044e59);
+        
+
+        circle_marker_673909486fac49c392e88f2a798228a5.bindPopup(popup_3b5873f2e1834fd0aaaf2eae9e0bfd5f)
+        ;
+
+        
+    
+    
+            circle_marker_673909486fac49c392e88f2a798228a5.bindTooltip(
+                `<div>
+                     Ceres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6ea2cfc555f746278272a780691cd583 = L.circleMarker(
+                [-13.8702567, -49.0749988],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_91ab7051681145b2944ea7a114c493f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c9f72570aa14107af65036bcfb223f6 = $(`<div id="html_5c9f72570aa14107af65036bcfb223f6" style="width: 100.0%; height: 100.0%;"><b>Estrela do Norte/GO</b><br>Texto exemplo</div>`)[0];
+            popup_91ab7051681145b2944ea7a114c493f2.setContent(html_5c9f72570aa14107af65036bcfb223f6);
+        
+
+        circle_marker_6ea2cfc555f746278272a780691cd583.bindPopup(popup_91ab7051681145b2944ea7a114c493f2)
+        ;
+
+        
+    
+    
+            circle_marker_6ea2cfc555f746278272a780691cd583.bindTooltip(
+                `<div>
+                     Estrela do Norte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c79a579b1b7a4ecda8cd42b8cab13278 = L.circleMarker(
+                [-13.5249277, -48.2350924],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_ccc5addcd3074ac29a7f4e43a3a8495a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9a98834f1cc4a21bbfb44c22158ae17 = $(`<div id="html_c9a98834f1cc4a21bbfb44c22158ae17" style="width: 100.0%; height: 100.0%;"><b>Minaçu/GO</b><br>Texto exemplo</div>`)[0];
+            popup_ccc5addcd3074ac29a7f4e43a3a8495a.setContent(html_c9a98834f1cc4a21bbfb44c22158ae17);
+        
+
+        circle_marker_c79a579b1b7a4ecda8cd42b8cab13278.bindPopup(popup_ccc5addcd3074ac29a7f4e43a3a8495a)
+        ;
+
+        
+    
+    
+            circle_marker_c79a579b1b7a4ecda8cd42b8cab13278.bindTooltip(
+                `<div>
+                     Minaçu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_738c2b63daa54237b56652378a4f2a0c = L.circleMarker(
+                [-13.727453, -49.2830765],
+                {"bubblingMouseEvents": true, "color": "lightgray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_bc2ccdc1bb1b4c1c8f42c743e1c97b31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7213bc7985a5414cb97f8eb4e19d6005 = $(`<div id="html_7213bc7985a5414cb97f8eb4e19d6005" style="width: 100.0%; height: 100.0%;"><b>Mutunópolis/GO</b><br>Texto exemplo</div>`)[0];
+            popup_bc2ccdc1bb1b4c1c8f42c743e1c97b31.setContent(html_7213bc7985a5414cb97f8eb4e19d6005);
+        
+
+        circle_marker_738c2b63daa54237b56652378a4f2a0c.bindPopup(popup_bc2ccdc1bb1b4c1c8f42c743e1c97b31)
+        ;
+
+        
+    
+    
+            circle_marker_738c2b63daa54237b56652378a4f2a0c.bindTooltip(
+                `<div>
+                     Mutunópolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5f31f9d6d62f43988e7a0a91c7d735d9 = L.circleMarker(
+                [-13.2427308, -49.5144863],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_e083fc3882454a1292178a6861652b0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a278555dee504d0989ef2fdc136e315f = $(`<div id="html_a278555dee504d0989ef2fdc136e315f" style="width: 100.0%; height: 100.0%;"><b>Novo Planalto/GO</b><br>Texto exemplo</div>`)[0];
+            popup_e083fc3882454a1292178a6861652b0f.setContent(html_a278555dee504d0989ef2fdc136e315f);
+        
+
+        circle_marker_5f31f9d6d62f43988e7a0a91c7d735d9.bindPopup(popup_e083fc3882454a1292178a6861652b0f)
+        ;
+
+        
+    
+    
+            circle_marker_5f31f9d6d62f43988e7a0a91c7d735d9.bindTooltip(
+                `<div>
+                     Novo Planalto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_057d52449a03489385150cb3f36516d6 = L.circleMarker(
+                [-14.2847704, -49.9299033],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_94f608d79e4040cd86a8acfef33e25f5);
+        
+    
+        var popup_6047d50d24ad476faf48856b66393dbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaf0438d5c1549468b7e15e2f5676995 = $(`<div id="html_aaf0438d5c1549468b7e15e2f5676995" style="width: 100.0%; height: 100.0%;"><b>Uirapuru/GO</b><br>Texto exemplo</div>`)[0];
+            popup_6047d50d24ad476faf48856b66393dbd.setContent(html_aaf0438d5c1549468b7e15e2f5676995);
+        
+
+        circle_marker_057d52449a03489385150cb3f36516d6.bindPopup(popup_6047d50d24ad476faf48856b66393dbd)
+        ;
+
+        
+    
+    
+            circle_marker_057d52449a03489385150cb3f36516d6.bindTooltip(
+                `<div>
+                     Uirapuru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

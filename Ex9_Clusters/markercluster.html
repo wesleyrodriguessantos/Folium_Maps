@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f06f7f32701545b181369b3900e41bc5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f06f7f32701545b181369b3900e41bc5" ></div>
+        
+</body>
+<script>    
+    
+            var map_f06f7f32701545b181369b3900e41bc5 = L.map(
+                "map_f06f7f32701545b181369b3900e41bc5",
+                {
+                    center: [-14.441758, -48.9271955],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_444ff06ad07a42079ff03f26ec5125cf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f06f7f32701545b181369b3900e41bc5);
+        
+    
+            var marker_cluster_63678804c8594d42ad27f1b48fcacb65 = L.markerClusterGroup(
+                {}
+            );
+            map_f06f7f32701545b181369b3900e41bc5.addLayer(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var marker_55bcc64bb1a74eb6b23dceb773683a84 = L.marker(
+                [-14.313991, -49.1604868],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_b1921233eb1d4d00b35594a2246e1d16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_55bcc64bb1a74eb6b23dceb773683a84.setIcon(icon_b1921233eb1d4d00b35594a2246e1d16);
+        
+    
+        var popup_fdc884251ebe461984ccf35d22480a8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f8da1af442b4b08b8c48ced767d7dcd = $(`<div id="html_8f8da1af442b4b08b8c48ced767d7dcd" style="width: 100.0%; height: 100.0%;"><b>Campinorte/GO</b><br>Lorem Ipsum</div>`)[0];
+            popup_fdc884251ebe461984ccf35d22480a8c.setContent(html_8f8da1af442b4b08b8c48ced767d7dcd);
+        
+
+        marker_55bcc64bb1a74eb6b23dceb773683a84.bindPopup(popup_fdc884251ebe461984ccf35d22480a8c)
+        ;
+
+        
+    
+    
+            marker_55bcc64bb1a74eb6b23dceb773683a84.bindTooltip(
+                `<div>
+                     Campinorte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baeecbb1ce6b4ca894a5b45a97e83311 = L.marker(
+                [-14.2662866, -49.6787236],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_a2f4d9ae1b77481486da94745b1ae7a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_baeecbb1ce6b4ca894a5b45a97e83311.setIcon(icon_a2f4d9ae1b77481486da94745b1ae7a8);
+        
+    
+        var popup_a385f7e68f06472691fd228afe646e96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8a8b1685c85431e9c00f37629e78a8e = $(`<div id="html_c8a8b1685c85431e9c00f37629e78a8e" style="width: 100.0%; height: 100.0%;"><b>Campos Verdes/GO</b><br>Dolor Sit amet<br> Venha venha</div>`)[0];
+            popup_a385f7e68f06472691fd228afe646e96.setContent(html_c8a8b1685c85431e9c00f37629e78a8e);
+        
+
+        marker_baeecbb1ce6b4ca894a5b45a97e83311.bindPopup(popup_a385f7e68f06472691fd228afe646e96)
+        ;
+
+        
+    
+    
+            marker_baeecbb1ce6b4ca894a5b45a97e83311.bindTooltip(
+                `<div>
+                     Campos Verdes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_725ae97235d04f0e96a0d852dd5a1543 = L.marker(
+                [-13.7939446, -47.4617806],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_4beea7ad81d94dc586cbfe58b60939c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "phone", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_725ae97235d04f0e96a0d852dd5a1543.setIcon(icon_4beea7ad81d94dc586cbfe58b60939c6);
+        
+    
+        var popup_ba76a0be790e47be8da71d1ff7b62e09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7dd11f37ddd41d991a77f2d4c84f810 = $(`<div id="html_d7dd11f37ddd41d991a77f2d4c84f810" style="width: 100.0%; height: 100.0%;"><b>Cavalcante/GO</b><br>Aqui tem Alguma <i>Coisa</i></div>`)[0];
+            popup_ba76a0be790e47be8da71d1ff7b62e09.setContent(html_d7dd11f37ddd41d991a77f2d4c84f810);
+        
+
+        marker_725ae97235d04f0e96a0d852dd5a1543.bindPopup(popup_ba76a0be790e47be8da71d1ff7b62e09)
+        ;
+
+        
+    
+    
+            marker_725ae97235d04f0e96a0d852dd5a1543.bindTooltip(
+                `<div>
+                     Cavalcante
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55b2a19c7e224d2f8779262fb3fef9d6 = L.marker(
+                [-15.3065344, -49.6263106],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_7618e15acb0e49bfaca270a8d93f0b65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_55b2a19c7e224d2f8779262fb3fef9d6.setIcon(icon_7618e15acb0e49bfaca270a8d93f0b65);
+        
+    
+        var popup_4fd63afca00449f887f030b39be4e14a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc420ae4dbd485abf85f44f50fb3921 = $(`<div id="html_abc420ae4dbd485abf85f44f50fb3921" style="width: 100.0%; height: 100.0%;"><b>Ceres/go</b><br>Texto exemplo</div>`)[0];
+            popup_4fd63afca00449f887f030b39be4e14a.setContent(html_abc420ae4dbd485abf85f44f50fb3921);
+        
+
+        marker_55b2a19c7e224d2f8779262fb3fef9d6.bindPopup(popup_4fd63afca00449f887f030b39be4e14a)
+        ;
+
+        
+    
+    
+            marker_55b2a19c7e224d2f8779262fb3fef9d6.bindTooltip(
+                `<div>
+                     Ceres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f98c3d05ae94bf99425cd64d14522ec = L.marker(
+                [-13.8702567, -49.0749988],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_368244608e624c1caa5c4b35c66d5595 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "phone", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1f98c3d05ae94bf99425cd64d14522ec.setIcon(icon_368244608e624c1caa5c4b35c66d5595);
+        
+    
+        var popup_4178d83d196d4a8fa33e32a61fdb3c2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aa065502c1940a9bb0bd9853e67251d = $(`<div id="html_6aa065502c1940a9bb0bd9853e67251d" style="width: 100.0%; height: 100.0%;"><b>Estrela do Norte/GO</b><br>Texto exemplo</div>`)[0];
+            popup_4178d83d196d4a8fa33e32a61fdb3c2f.setContent(html_6aa065502c1940a9bb0bd9853e67251d);
+        
+
+        marker_1f98c3d05ae94bf99425cd64d14522ec.bindPopup(popup_4178d83d196d4a8fa33e32a61fdb3c2f)
+        ;
+
+        
+    
+    
+            marker_1f98c3d05ae94bf99425cd64d14522ec.bindTooltip(
+                `<div>
+                     Estrela do Norte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48eaaf99b45f48f8af652e2545b7a62a = L.marker(
+                [-13.5249277, -48.2350924],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_10eba9f397b5414d96e9f94ec90088ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "phone", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_48eaaf99b45f48f8af652e2545b7a62a.setIcon(icon_10eba9f397b5414d96e9f94ec90088ea);
+        
+    
+        var popup_9affe593f8e34888a8abefc8fb98db70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba295d2f29e740f99e0ebca097ed425e = $(`<div id="html_ba295d2f29e740f99e0ebca097ed425e" style="width: 100.0%; height: 100.0%;"><b>Minaçu/GO</b><br>Texto exemplo</div>`)[0];
+            popup_9affe593f8e34888a8abefc8fb98db70.setContent(html_ba295d2f29e740f99e0ebca097ed425e);
+        
+
+        marker_48eaaf99b45f48f8af652e2545b7a62a.bindPopup(popup_9affe593f8e34888a8abefc8fb98db70)
+        ;
+
+        
+    
+    
+            marker_48eaaf99b45f48f8af652e2545b7a62a.bindTooltip(
+                `<div>
+                     Minaçu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b01ea808774448d4908e2754d94938fb = L.marker(
+                [-13.727453, -49.2830765],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_b6614401adf94e4484582cd229a7323f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_b01ea808774448d4908e2754d94938fb.setIcon(icon_b6614401adf94e4484582cd229a7323f);
+        
+    
+        var popup_ecab48e08b9247cab65445abaa105909 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_deaccbb1d258466c81a5941891ad76d0 = $(`<div id="html_deaccbb1d258466c81a5941891ad76d0" style="width: 100.0%; height: 100.0%;"><b>Mutunópolis/GO</b><br>Texto exemplo</div>`)[0];
+            popup_ecab48e08b9247cab65445abaa105909.setContent(html_deaccbb1d258466c81a5941891ad76d0);
+        
+
+        marker_b01ea808774448d4908e2754d94938fb.bindPopup(popup_ecab48e08b9247cab65445abaa105909)
+        ;
+
+        
+    
+    
+            marker_b01ea808774448d4908e2754d94938fb.bindTooltip(
+                `<div>
+                     Mutunópolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a9746e680694b7b957a50cf2307bbe8 = L.marker(
+                [-13.2427308, -49.5144863],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_53ca600316a2470294a9eabd2f57c3f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "phone", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9a9746e680694b7b957a50cf2307bbe8.setIcon(icon_53ca600316a2470294a9eabd2f57c3f8);
+        
+    
+        var popup_1a12a2ca996049c49661c89a83a112b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7370335160174c9a88d0b45361815444 = $(`<div id="html_7370335160174c9a88d0b45361815444" style="width: 100.0%; height: 100.0%;"><b>Novo Planalto/GO</b><br>Texto exemplo</div>`)[0];
+            popup_1a12a2ca996049c49661c89a83a112b0.setContent(html_7370335160174c9a88d0b45361815444);
+        
+
+        marker_9a9746e680694b7b957a50cf2307bbe8.bindPopup(popup_1a12a2ca996049c49661c89a83a112b0)
+        ;
+
+        
+    
+    
+            marker_9a9746e680694b7b957a50cf2307bbe8.bindTooltip(
+                `<div>
+                     Novo Planalto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a39f44a13ad415d8572bcbbc11bd591 = L.marker(
+                [-14.2847704, -49.9299033],
+                {}
+            ).addTo(marker_cluster_63678804c8594d42ad27f1b48fcacb65);
+        
+    
+            var icon_7127e4844ba94e118cd5e30e5807b149 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2a39f44a13ad415d8572bcbbc11bd591.setIcon(icon_7127e4844ba94e118cd5e30e5807b149);
+        
+    
+        var popup_47f21aa1d9f14ecca26bb9f45c446190 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3529fa970dd54e55b867773a06c497da = $(`<div id="html_3529fa970dd54e55b867773a06c497da" style="width: 100.0%; height: 100.0%;"><b>Uirapuru/GO</b><br>Texto exemplo</div>`)[0];
+            popup_47f21aa1d9f14ecca26bb9f45c446190.setContent(html_3529fa970dd54e55b867773a06c497da);
+        
+
+        marker_2a39f44a13ad415d8572bcbbc11bd591.bindPopup(popup_47f21aa1d9f14ecca26bb9f45c446190)
+        ;
+
+        
+    
+    
+            marker_2a39f44a13ad415d8572bcbbc11bd591.bindTooltip(
+                `<div>
+                     Uirapuru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
